@@ -10,7 +10,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Uni-Calltransfer" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/callTransfer" />
+            <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/mylibrary" />
             <option value="$PROJECT_DIR$/uniplugin_component" />
             <option value="$PROJECT_DIR$/uniplugin_module" />
             <option value="$PROJECT_DIR$/uniplugin_richalert" />

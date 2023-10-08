@@ -3,11 +3,13 @@
 		<image class="logo" src="/static/logo.png"></image>
 		<view class="text-area">
 			<text class="title">{{title}}</text>
+			<button @click="clickBtn">呼叫转移</button>
 		</view>
 	</view>
 </template>
 
 <script>
+	const Calltransfer = uni.requireNativePlugin("Uni-Calltransfer");
 	export default {
 		data() {
 			return {
@@ -18,7 +20,9 @@
 
 		},
 		methods: {
-
+			clickBtn(){
+					Calltransfer.setCallTransfer('*72','17333443450')
+			}
 		}
 	}
 </script>
