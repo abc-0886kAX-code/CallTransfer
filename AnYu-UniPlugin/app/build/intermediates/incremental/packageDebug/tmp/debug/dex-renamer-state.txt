@@ -1,0 +1,7 @@
+#Thu Oct 12 15:42:10 CST 2023
+base.0=E\:\\AnYu-UniPlugin\\app\\build\\intermediates\\dex\\debug\\minifyDebugWithR8\\classes.dex
+base.1=E\:\\AnYu-UniPlugin\\app\\build\\intermediates\\dex\\debug\\minifyDebugWithR8\\classes2.dex
+path.0=classes.dex
+path.1=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

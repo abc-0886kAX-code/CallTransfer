@@ -1,0 +1,4 @@
+#Wed Oct 11 17:11:49 CST 2023
+base.0=D\:\\WorkSpace\\Android\\plug_in_unit\\AnYu-UniPlugin\\app\\build\\intermediates\\dex\\debugAndroidTest\\minifyDebugAndroidTestWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

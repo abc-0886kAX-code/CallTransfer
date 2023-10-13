@@ -1,0 +1,10 @@
+# compiler: R8
+# compiler_version: 3.2.47
+# min_api: 21
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.0"}
+# pg_map_id: d69eee6
+# pg_map_hash: SHA-256 d69eee6e4b5e4addb643a17068e03dc1981e3b426de2bdb15aa5a5b5ab45d383
+com.android.CallTransfer.test.BuildConfig -> com.android.CallTransfer.test.BuildConfig:
+    7:7:void <clinit>() -> <clinit>
+    6:6:void <init>() -> <init>
