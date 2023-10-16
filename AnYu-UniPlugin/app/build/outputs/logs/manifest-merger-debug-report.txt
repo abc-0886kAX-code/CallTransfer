@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12
-INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12
-INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12
-INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12
 MERGED from [android-gif-drawable-release@1.2.23.aar] C:\Users\26251\.gradle\caches\transforms-3\85b7d427aae6fa0ac00d1d3b996bded3\transformed\jetified-android-gif-drawable-release@1.2.23\AndroidManifest.xml:2:1-9:12
 MERGED from [breakpad-build-release.aar] C:\Users\26251\.gradle\caches\transforms-3\37c130e50580e1a7ec48a10c7501c0af\transformed\jetified-breakpad-build-release\AndroidManifest.xml:2:1-9:12
 MERGED from [lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:2:1-280:12
@@ -32,7 +32,7 @@ MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\26251\.gradle\caches\transfo
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\26251\.gradle\caches\transforms-3\7ab5498ae209f60570583be81c784acb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\26251\.gradle\caches\transforms-3\5f7966a01b94d94d71f6c2048e9227f3\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.9.0] C:\Users\26251\.gradle\caches\transforms-3\8bfbcf315f46d0cacfeefa4e701cc930\transformed\core-1.9.0\AndroidManifest.xml:17:1-30:12
-MERGED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-27:12
+MERGED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-27:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\26251\.gradle\caches\transforms-3\e212e6554f82f2e5e4741efadafb30b5\transformed\jetified-gifdecoder-4.9.0\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\26251\.gradle\caches\transforms-3\3d9131e982f201b1133323e22bea28f9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.savedstate:savedstate:1.2.0] C:\Users\26251\.gradle\caches\transforms-3\06f270e8ca278ba82e7481c46a9047c7\transformed\jetified-savedstate-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -55,67 +55,67 @@ MERGED from [com.facebook.fresco:imagepipeline-base:1.13.0] C:\Users\26251\.grad
 MERGED from [com.facebook.fresco:fbcore:1.13.0] C:\Users\26251\.gradle\caches\transforms-3\9715653a75602f0b5c6656ef94e811ba\transformed\jetified-fbcore-1.13.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\26251\.gradle\caches\transforms-3\d40f534ea2cc38a3a89303e97dbb0c29\transformed\jetified-soloader-0.6.0\AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\26251\.gradle\caches\transforms-3\5165ea10cbd324e35c256bb0449cb7ac\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12
-INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12
-INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12
 	package
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:4:5-39
-		INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
-		INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:4:5-39
+		INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
+		INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12
-		INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
+		INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12
+		INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
 	xmlns:tools
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12
-		INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
+		INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12
+		INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:11-69
 supports-screens
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:6:5-11:39
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:6:5-11:39
 MERGED from [lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:7:5-12:39
 MERGED from [lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:7:5-12:39
 	android:largeScreens
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:8:9-36
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:8:9-36
 	android:smallScreens
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:11:9-36
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:11:9-36
 	android:normalScreens
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:9:9-37
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:9:9-37
 	android:resizeable
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:10:9-34
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:10:9-34
 	android:anyDensity
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:7:9-34
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:7:9-34
 uses-permission#android.permission.CAMERA
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:14:5-65
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:14:5-65
 	android:name
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:14:22-62
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:14:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:15:5-81
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:15:5-81
 MERGED from [lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:14:5-81
 MERGED from [lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:14:5-81
 	android:name
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:15:22-78
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:15:22-78
 uses-feature#android.hardware.camera
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:17:5-60
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:17:5-60
 	android:name
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:17:19-57
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:17:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:18:5-70
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:18:5-70
 	android:name
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:18:19-67
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:18:19-67
 uses-permission#android.permission.VIBRATE
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:20:5-66
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:20:22-63
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:20:22-63
 uses-permission#android.permission.FLASHLIGHT
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:21:5-69
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:21:5-69
 	android:name
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:21:22-66
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:21:22-66
 application
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:24:5-87:19
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:24:5-87:19
 MERGED from [lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:172:5-278:19
 MERGED from [lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:172:5-278:19
 MERGED from [uniapp-v8-release.aar] C:\Users\26251\.gradle\caches\transforms-3\27f1f9ab64e7d817ce2d451caa87399e\transformed\jetified-uniapp-v8-release\AndroidManifest.xml:29:5-35:19
@@ -126,8 +126,8 @@ MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\26251\.gradle\caches\transfo
 MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Users\26251\.gradle\caches\transforms-3\17116c6de44ad80e496d16726517f549\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
 MERGED from [androidx.core:core:1.9.0] C:\Users\26251\.gradle\caches\transforms-3\8bfbcf315f46d0cacfeefa4e701cc930\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
 MERGED from [androidx.core:core:1.9.0] C:\Users\26251\.gradle\caches\transforms-3\8bfbcf315f46d0cacfeefa4e701cc930\transformed\core-1.9.0\AndroidManifest.xml:28:5-89
-MERGED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:5-25:19
-MERGED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:5-25:19
+MERGED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:5-25:19
+MERGED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:5-25:19
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\26251\.gradle\caches\transforms-3\e212e6554f82f2e5e4741efadafb30b5\transformed\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\26251\.gradle\caches\transforms-3\e212e6554f82f2e5e4741efadafb30b5\transformed\jetified-gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\26251\.gradle\caches\transforms-3\3d9131e982f201b1133323e22bea28f9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
@@ -143,103 +143,103 @@ MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\26251\.gradle\caches
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\26251\.gradle\caches\transforms-3\8bfbcf315f46d0cacfeefa4e701cc930\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:30:9-35
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:30:9-35
 	android:label
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:28:9-41
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:28:9-41
 	android:allowClearUserData
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:26:9-42
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:26:9-42
 	android:largeHeap
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:29:9-33
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:29:9-33
 	android:icon
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:27:9-38
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:27:9-38
 	android:usesCleartextTraffic
 		ADDED from [lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:175:9-44
 	android:name
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:25:9-63
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:25:9-63
 activity#io.dcloud.PandoraEntry
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:33:9-55:20
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:33:9-55:20
 	android:hardwareAccelerated
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:37:13-47
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:37:13-47
 	android:windowSoftInputMode
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:38:13-55
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:38:13-55
 	android:configChanges
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:36:13-92
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:36:13-92
 	android:theme
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:35:13-52
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:35:13-52
 	android:name
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:34:13-50
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:34:13-50
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:hbuilder
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:39:13-45:29
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:39:13-45:29
 data
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:40:17-50
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:40:17-50
 	android:scheme
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:40:23-48
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:40:23-48
 	android:mimeType
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:47:23-49
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:47:23-49
 action#android.intent.action.VIEW
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:41:17-68
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:41:17-68
 	android:name
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:41:25-66
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:41:25-66
 category#android.intent.category.DEFAULT
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:17-75
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:17-75
 	android:name
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:27-73
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:27-73
 category#android.intent.category.BROWSABLE
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:44:17-77
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:44:17-77
 	android:name
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:44:27-75
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:44:27-75
 intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:image/*
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:46:13-50:29
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:46:13-50:29
 action#android.intent.action.SEND
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:48:17-68
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:48:17-68
 	android:name
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:48:25-66
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:48:25-66
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:51:13-54:29
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:51:13-54:29
 action#android.intent.action.MAIN
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:52:17-68
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:52:17-68
 	android:name
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:52:25-66
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:52:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:53:17-76
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:53:17-76
 	android:name
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:53:27-74
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:53:27-74
 meta-data#dcloud_uninview_background
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:56:9-57:35
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:56:9-57:35
 	android:value
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:57:13-33
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:57:13-33
 	android:name
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:56:20-61
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:56:20-61
 activity#io.dcloud.PandoraEntryActivity
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:59:9-83:20
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:59:9-83:20
 	android:screenOrientation
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:65:13-45
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:65:13-45
 	android:launchMode
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:61:13-44
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:61:13-44
 	android:hardwareAccelerated
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:63:13-47
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:63:13-47
 	android:windowSoftInputMode
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:67:13-55
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:67:13-55
 	android:permission
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:64:13-89
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:64:13-89
 	android:configChanges
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:62:13-151
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:62:13-151
 	android:theme
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:66:13-47
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:66:13-47
 	android:name
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:60:13-58
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:60:13-58
 intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme: 
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:69:13-82:29
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:69:13-82:29
 meta-data#dcloud_appkey
-ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:84:9-86:64
+ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:84:9-86:64
 	android:value
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:86:13-61
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:86:13-61
 	android:name
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:85:13-41
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:85:13-41
 uses-sdk
-INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
-INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
+INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
+INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
 MERGED from [android-gif-drawable-release@1.2.23.aar] C:\Users\26251\.gradle\caches\transforms-3\85b7d427aae6fa0ac00d1d3b996bded3\transformed\jetified-android-gif-drawable-release@1.2.23\AndroidManifest.xml:5:5-7:41
 MERGED from [android-gif-drawable-release@1.2.23.aar] C:\Users\26251\.gradle\caches\transforms-3\85b7d427aae6fa0ac00d1d3b996bded3\transformed\jetified-android-gif-drawable-release@1.2.23\AndroidManifest.xml:5:5-7:41
 MERGED from [breakpad-build-release.aar] C:\Users\26251\.gradle\caches\transforms-3\37c130e50580e1a7ec48a10c7501c0af\transformed\jetified-breakpad-build-release\AndroidManifest.xml:5:5-7:41
@@ -296,8 +296,8 @@ MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\26251\.gradl
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\26251\.gradle\caches\transforms-3\5f7966a01b94d94d71f6c2048e9227f3\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.9.0] C:\Users\26251\.gradle\caches\transforms-3\8bfbcf315f46d0cacfeefa4e701cc930\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.core:core:1.9.0] C:\Users\26251\.gradle\caches\transforms-3\8bfbcf315f46d0cacfeefa4e701cc930\transformed\core-1.9.0\AndroidManifest.xml:20:5-44
-MERGED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
-MERGED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\26251\.gradle\caches\transforms-3\e212e6554f82f2e5e4741efadafb30b5\transformed\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\26251\.gradle\caches\transforms-3\e212e6554f82f2e5e4741efadafb30b5\transformed\jetified-gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\26251\.gradle\caches\transforms-3\3d9131e982f201b1133323e22bea28f9\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
@@ -342,18 +342,18 @@ MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\26251\.gradle\caches
 MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\26251\.gradle\caches\transforms-3\d40f534ea2cc38a3a89303e97dbb0c29\transformed\jetified-soloader-0.6.0\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\26251\.gradle\caches\transforms-3\5165ea10cbd324e35c256bb0449cb7ac\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\26251\.gradle\caches\transforms-3\5165ea10cbd324e35c256bb0449cb7ac\transformed\jetified-annotation-experimental-1.3.0\AndroidManifest.xml:20:5-44
-INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
-INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
+INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
+INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [oaid_sdk_1.0.25.aar] C:\Users\26251\.gradle\caches\transforms-3\8dac24e8eca8440c0ce1dcbc155bf825\transformed\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:11:9-60
 	android:targetSdkVersion
-		INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
-		INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
+		INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
+		INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
-		ADDED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
-		INJECTED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
+		INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
+		ADDED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
+		INJECTED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.READ_MEDIA_IMAGES
 ADDED from [lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:17:5-76
 	android:name
@@ -533,7 +533,7 @@ ADDED from [lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms
 	android:name
 		ADDED from [lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:269:13-84
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from E:\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12 reason: io.dcloud.base requested WRITE_EXTERNAL_STORAGE
+IMPLIED from E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:2:1-89:12 reason: io.dcloud.base requested WRITE_EXTERNAL_STORAGE
 uses-permission#com.asus.msa.SupplementaryDID.ACCESS
 ADDED from [oaid_sdk_1.0.25.aar] C:\Users\26251\.gradle\caches\transforms-3\8dac24e8eca8440c0ce1dcbc155bf825\transformed\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:13:5-76
 	android:name
@@ -591,41 +591,41 @@ ADDED from [androidx.core:core:1.9.0] C:\Users\26251\.gradle\caches\transforms-3
 	android:name
 		ADDED from [androidx.core:core:1.9.0] C:\Users\26251\.gradle\caches\transforms-3\8bfbcf315f46d0cacfeefa4e701cc930\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 uses-permission#android.permission.CALL_PHONE
-ADDED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-69
+ADDED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-69
 	android:name
-		ADDED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-66
+		ADDED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-66
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-75
+ADDED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-75
 	android:name
-		ADDED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-72
+		ADDED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-72
 uses-permission#android.permission.READ_CALL_LOG
-ADDED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-72
+ADDED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-72
 	android:name
-		ADDED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-69
+		ADDED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-69
 uses-permission#android.permission.READ_SMS
-ADDED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-67
+ADDED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-67
 	android:name
-		ADDED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-64
+		ADDED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-64
 uses-permission#android.permission.READ_PHONE_NUMBERS
-ADDED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-77
+ADDED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-77
 	android:name
-		ADDED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:22-74
+		ADDED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:22-74
 uses-permission#android.permission.CALL_SCREENING_SERVICE
-ADDED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-81
+ADDED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-81
 	android:name
-		ADDED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:22-78
+		ADDED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:22-78
 service#com.anyu.callforwarding.CallForwardingService
-ADDED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-24:19
+ADDED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-24:19
 	android:permission
-		ADDED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-75
+		ADDED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-75
 	android:name
-		ADDED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-73
+		ADDED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-73
 intent-filter#action:name:android.telecom.CallScreeningService
-ADDED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-23:29
+ADDED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-23:29
 action#android.telecom.CallScreeningService
-ADDED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-79
+ADDED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-79
 	android:name
-		ADDED from [:callforwarding] E:\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-76
+		ADDED from [:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-76
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\26251\.gradle\caches\transforms-3\16119237b3edb443f37de14aaa8fcfe3\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 	android:value

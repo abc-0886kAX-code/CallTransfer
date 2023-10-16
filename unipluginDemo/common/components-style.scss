@@ -1,0 +1,67 @@
+.u-input{
+	width: 100%;
+	height:100%;
+	background-color: #FFFFFF;
+	border-radius: 30rpx;
+	box-shadow: 2px 2px 7px #838383 inset;
+}
+
+.uni-input-placeholder {
+  color: #8F8F8F;
+	text-align: center;
+}
+input{
+	text-align: center;
+	font-size: 1.2em;
+	font-style: italic;
+}
+.u-button{
+	width: 100%;
+	height: 100%;
+	border-radius: 200rpx;
+	font-size: 1.2em;
+	font-style: italic;
+	line-height: 70rpx;
+	font-weight: bold;
+}
+
+
+.s-button{
+	width: 100%;
+	height: 100%;
+	border-radius: 200rpx;
+	font-size: 1.2em;
+	font-style: italic;
+	line-height: 70rpx;
+	font-weight: bold;
+	background:linear-gradient(to right,#063DF5,#653DF2);
+	color:#fff;
+}
+
+.e-button{
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	font-size: 1.2em;
+	font-style: italic;
+	line-height: 70rpx;
+	font-weight: bold;
+	background:linear-gradient(to right,#063DF5,#653DF2);
+	color:#fff;
+}
+
+.e-icon{
+	width: 100%;
+	height: 100%;
+	border-radius: 100%;
+	font-size: 1.2em;
+	font-style: italic;
+	line-height: 70rpx;
+	font-weight: bold;
+	background:linear-gradient(to right,#063DF5,#653DF2);
+	color:#fff;
+}
+
+::v-deep i{
+		margin:0 5px 1.5px 5px;
+	}

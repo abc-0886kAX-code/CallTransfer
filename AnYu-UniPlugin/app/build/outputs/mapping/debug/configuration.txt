@@ -1,4 +1,4 @@
-# The proguard configuration file for the following section is E:\AnYu-UniPlugin\app\build\intermediates\default_proguard_files\global\proguard-android.txt-7.2.0
+# The proguard configuration file for the following section is E:\CallTransfer\AnYu-UniPlugin\app\build\intermediates\default_proguard_files\global\proguard-android.txt-7.2.0
 # This is a configuration file for ProGuard.
 # http://proguard.sourceforge.net/index.html#manual/usage.html
 #
@@ -116,8 +116,8 @@
 # These classes are duplicated between android.jar and core-lambda-stubs.jar.
 -dontnote java.lang.invoke.**
 
-# End of content from E:\AnYu-UniPlugin\app\build\intermediates\default_proguard_files\global\proguard-android.txt-7.2.0
-# The proguard configuration file for the following section is E:\AnYu-UniPlugin\app\proguard-rules.pro
+# End of content from E:\CallTransfer\AnYu-UniPlugin\app\build\intermediates\default_proguard_files\global\proguard-android.txt-7.2.0
+# The proguard configuration file for the following section is E:\CallTransfer\AnYu-UniPlugin\app\proguard-rules.pro
 -optimizationpasses 5
 -dontusemixedcaseclassnames
 -dontskipnonpubliclibraryclasses
@@ -268,8 +268,8 @@
 
 -keep class androidtranscoder.**{*;}
 -keep class XI.**{*;}
-# End of content from E:\AnYu-UniPlugin\app\proguard-rules.pro
-# The proguard configuration file for the following section is E:\AnYu-UniPlugin\app\build\intermediates\aapt_proguard_file\debug\aapt_rules.txt
+# End of content from E:\CallTransfer\AnYu-UniPlugin\app\proguard-rules.pro
+# The proguard configuration file for the following section is E:\CallTransfer\AnYu-UniPlugin\app\build\intermediates\aapt_proguard_file\debug\aapt_rules.txt
 -keep class androidx.core.app.CoreComponentFactory { <init>(); }
 -keep class androidx.startup.InitializationProvider { <init>(); }
 -keep class com.anyu.callforwarding.CallForwardingService { <init>(); }
@@ -353,7 +353,7 @@
 -keepclassmembers class * { *** onClick(android.view.View); }
 
 
-# End of content from E:\AnYu-UniPlugin\app\build\intermediates\aapt_proguard_file\debug\aapt_rules.txt
+# End of content from E:\CallTransfer\AnYu-UniPlugin\app\build\intermediates\aapt_proguard_file\debug\aapt_rules.txt
 # The proguard configuration file for the following section is C:\Users\26251\.gradle\caches\transforms-3\85b7d427aae6fa0ac00d1d3b996bded3\transformed\jetified-android-gif-drawable-release@1.2.23\proguard.txt
 -keep public class pl.droidsonroids.gif.GifIOException{<init>(int, java.lang.String);}
 #Prevents warnings for consumers not using AndroidX

@@ -1,41 +1,23 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+			"path": "pages/login/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "登录",
+				"navigationStyle":"custom"
 			}
 		},
 		{
-			"path": "pages/sample/ext-module",
+			"path": "pages/home/index",
 			"style": {
-				"navigationBarTitleText": "扩展 module"
-			}
-		},
-		{
-			"path": "pages/sample/ext-component",
-			"style": {
-				"navigationBarTitleText": "扩展 component"
-			}
-		},
-		{
-			"path": "pages/sample/richAlert",
-			"style": {
-				"navigationBarTitleText": "RichAlert"
+				"navigationBarTitleText": "主页",
+				"navigationStyle":"custom"
 			}
 		}
-	    ,{
-            "path" : "pages/sample/callForwarding",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "callForwarding"
-            }
-            
-        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "呼叫转移",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
 	}

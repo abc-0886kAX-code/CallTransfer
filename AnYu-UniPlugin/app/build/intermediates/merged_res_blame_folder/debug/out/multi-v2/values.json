@@ -40,6 +40,23 @@
                     }
                 },
                 {
+                    "source": "E:\\CallTransfer\\AnYu-UniPlugin\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "41",
+                        "endOffsets": "54"
+                    },
+                    "to": {
+                        "startLines": "336",
+                        "startColumns": "4",
+                        "startOffsets": "21498",
+                        "endColumns": "41",
+                        "endOffsets": "21535"
+                    }
+                },
+                {
                     "source": "C:\\Users\\26251\\.gradle\\caches\\transforms-3\\7e5abcff3307a84b0d209556ef7470d8\\transformed\\jetified-appcompat-resources-1.6.1\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,18,24,34,50",
@@ -92,23 +109,6 @@
                         "endLines": "3261,3265",
                         "endColumns": "24,24",
                         "endOffsets": "194595,194766"
-                    }
-                },
-                {
-                    "source": "E:\\AnYu-UniPlugin\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endColumns": "41",
-                        "endOffsets": "54"
-                    },
-                    "to": {
-                        "startLines": "336",
-                        "startColumns": "4",
-                        "startOffsets": "21498",
-                        "endColumns": "41",
-                        "endOffsets": "21535"
                     }
                 },
                 {
