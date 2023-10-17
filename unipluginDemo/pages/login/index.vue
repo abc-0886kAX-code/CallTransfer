@@ -11,6 +11,7 @@
 </template>
 <script>
 	import {Login} from "@/api/comm.js"
+	import permision from "@/js_sdk/wa-permission/permission.js"
 	export default {
 		data() {
 			return {
@@ -19,7 +20,8 @@
 			}
 		},
 		onLoad() {
-			initLogin()
+			this.initLogin()
+			this.obtainingAuthorization();
 		},
 		methods: {
 			async handleLogon(){
@@ -45,6 +47,21 @@
 			},
 			initLogin(){
 				// 查看是否有token，并且校验token,通过则自动登录进入，失败则需要用户手动输入后登录
+			},
+			async obtainingAuthorization(){
+				var result = await permision.requestAndroidPermission('android.permission.CALL_PHONE')
+				var strStatus
+				if (result == 1) {
+					strStatus = "已获得授权"
+				} else if (result == 0) {
+					strStatus = "未获得授权"
+				} else {
+					strStatus = "被永久拒绝权限"
+				}
+				uni.showModal({
+					content: 'android.permission.CALL_PHONE' + strStatus,
+					showCancel: false
+				});
 			}
 		}
 	}
@@ -57,7 +74,7 @@
 		height: 100%;
 		overflow: hidden;
 		background: url('../../static/login.png') no-repeat;
-		background-position: 100% 100%;
+		background-size:100% 100%;
 		&-form{
 			position: absolute;
 			top: 24%;

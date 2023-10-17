@@ -1,59 +1,89 @@
 package com.anyu.callforwarding;
 
-import android.Manifest;
+import android.app.Service;
 import android.content.Intent;
-import android.content.pm.PackageManager;
-import android.net.Uri;
 import android.os.Build;
-import android.telecom.Call;
-import android.telecom.CallScreeningService;
-import android.telecom.TelecomManager;
+import android.os.IBinder;
+import android.telephony.PhoneStateListener;
+import android.telephony.TelephonyManager;
 import android.util.Log;
+import android.view.View;
+import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.TextView;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.RequiresApi;
-import androidx.core.app.ActivityCompat;
+import androidx.annotation.Nullable;
 
-import com.anyu.callforwarding.dto.CallForwardingDto;
-import com.anyu.callforwarding.utils.StringUtils;
 
-@RequiresApi(api = Build.VERSION_CODES.N)
-public class CallForwardingService extends CallScreeningService {
-    String TAG = "tag";
-    TelecomManager telMgr;
+public class CallForwardingService extends Service {
+
+    private View phoneCallView;
+    private TextView tvCallNumber;
+    private Button btnOpenApp;
+
+    private WindowManager windowManager;
+    private WindowManager.LayoutParams params;
+
+    private PhoneStateListener phoneStateListener;
+    private TelephonyManager telephonyManager;
+
+    private String callNumber;
+    private boolean hasShown;
+    private boolean isCallingIn;
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        Log.e("测试","哈哈哈哈" );
+
+        initPhoneStateListener();
+    }
+
+    @Nullable
+    @Override
+    public IBinder onBind(Intent intent) {
+        return null;
+    }
 
     /**
-     * 来电话时的操作
-     * @param details
+     * 初始化来电状态监听器
      */
-    @Override
-    public void onScreenCall(@NonNull Call.Details details) {
-        String source_Phone = details.getHandle().toString(); // 来电号码
-        String phoneNumber = CallForwardingDto.getForwardingPhone(source_Phone);
-        Log.e("来电号码", source_Phone);
-        Log.e("转移的号码", phoneNumber);
-        // 从 JavaScript 传递的参数中获取要转移到的电话号码
-        try {
-            String jsphoneNumber = details.getExtras().getString("phoneNumber");
-            Log.e("js获取的号码", jsphoneNumber);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        /**
-         * 获取TelephonyManager
-         */
-        telMgr = getSystemService(TelecomManager.class);
-        if (telMgr != null && StringUtils.isNotBlank(phoneNumber) && CallForwardingDto.getCallForward()) {
-            /**
-             * 将来电转移到给定的号码中
-             */
-            Intent intent = new Intent(Intent.ACTION_CALL);
-            intent.setData(Uri.parse("tel:" + phoneNumber));
-            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-            if (ActivityCompat.checkSelfPermission(this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
-                return;
+    private void initPhoneStateListener() {
+        phoneStateListener = new PhoneStateListener() {
+            @Override
+            public void onCallStateChanged(int state, String incomingNumber) {
+                super.onCallStateChanged(state, incomingNumber);
+
+                callNumber = incomingNumber;
+
+                switch (state) {
+                    case TelephonyManager.CALL_STATE_IDLE: // 待机，即无电话时，挂断时触发
+
+                        break;
+
+                    case TelephonyManager.CALL_STATE_RINGING: // 响铃，来电时触发
+                        isCallingIn = true;
+
+                        Log.e("来电电话",callNumber );
+
+                        break;
+
+                    case TelephonyManager.CALL_STATE_OFFHOOK: // 摘机，接听或拨出电话时触发
+
+                        break;
+
+                    default:
+                        break;
+
+                }
             }
-            telMgr.placeCall(intent.getData(), null);
+        };
+
+        // 设置来电监听器
+        telephonyManager = (TelephonyManager) getSystemService(TELEPHONY_SERVICE);
+        if (telephonyManager != null) {
+            telephonyManager.listen(phoneStateListener, PhoneStateListener.LISTEN_CALL_STATE);
         }
+
     }
 }

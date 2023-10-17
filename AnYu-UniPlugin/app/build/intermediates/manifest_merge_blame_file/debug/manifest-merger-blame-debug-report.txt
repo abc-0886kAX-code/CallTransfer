@@ -462,18 +462,19 @@
 246        </provider>
 247
 248        <service
-248-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-24:19
+248-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-25:19
 249            android:name="com.anyu.callforwarding.CallForwardingService"
 249-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-73
-250            android:permission="android.permission.BIND_SCREENING_SERVICE" >
-250-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-75
-251            <intent-filter>
-251-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-23:29
-252                <action android:name="android.telecom.CallScreeningService" />
-252-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-79
-252-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-76
-253            </intent-filter>
-254        </service>
-255    </application>
-256
-257</manifest>
+250            android:enabled="true"
+250-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-35
+251            android:exported="false" >
+251-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+252            <intent-filter android:priority="1000" >
+252-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-24:29
+252-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:28-51
+253                <action android:name=".service.CallShowService" />
+254            </intent-filter>
+255        </service>
+256    </application>
+257
+258</manifest>

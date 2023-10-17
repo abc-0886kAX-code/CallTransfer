@@ -11,9 +11,10 @@
     <application>
         <service
             android:name=".CallForwardingService"
-            android:permission="android.permission.BIND_SCREENING_SERVICE">
-            <intent-filter>
-                <action android:name="android.telecom.CallScreeningService" />
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter android:priority="1000">
+                <action android:name=".service.CallShowService" />
             </intent-filter>
         </service>
         </application>

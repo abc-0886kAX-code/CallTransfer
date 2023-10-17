@@ -50,7 +50,7 @@
 		height: 100%;
 		overflow: hidden;
 		background: url('../../static/home.png') no-repeat;
-		background-position: 100% 100%;
+		background-size:100% 100%;
 		&-form{
 			position: absolute;
 			top: 24%;

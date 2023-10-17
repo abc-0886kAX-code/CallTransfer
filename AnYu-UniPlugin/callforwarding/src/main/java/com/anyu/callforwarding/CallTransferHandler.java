@@ -50,7 +50,14 @@ public class CallTransferHandler extends UniModule {
     public void setOverallSituationPhone(JSONObject options){
         String phone = options.getString("phone");
         Log.e("tag",phone);
-        CallForwardingDto.setOverallSituationPhone(phone);
+
+//        CallForwardingDto.setOverallSituationPhone(phone);
+
+
+        Intent dialIntent = new Intent(Intent.ACTION_CALL,
+                Uri.parse(String.format("tel:%s", phone)));
+        dialIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        super.mUniSDKInstance.getContext().startActivity(dialIntent);
     }
 
     /**
