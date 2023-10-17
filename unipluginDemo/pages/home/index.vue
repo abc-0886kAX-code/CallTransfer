@@ -29,10 +29,12 @@
 					})
 					return;
 				}
-				
+				// 此处返回提示消息是否启动并且设置成功
 				callforwarding.setOverallSituationPhone({phone:this.phone})
 			},
 			handleExit(){
+				
+				// 清除当前登录信息
 				uni.reLaunch({
 					url:"../login/index"
 				})

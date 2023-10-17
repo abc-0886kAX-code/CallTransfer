@@ -18,7 +18,9 @@
 				password:'',
 			}
 		},
-		onLoad() {},
+		onLoad() {
+			initLogin()
+		},
 		methods: {
 			async handleLogon(){
 				if(!this.username || !this.password){
@@ -40,6 +42,9 @@
 							url:"../home/index"
 						})
 				}
+			},
+			initLogin(){
+				// 查看是否有token，并且校验token,通过则自动登录进入，失败则需要用户手动输入后登录
 			}
 		}
 	}
