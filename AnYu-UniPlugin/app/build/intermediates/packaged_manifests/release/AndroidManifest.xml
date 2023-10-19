@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.UniPlugin"
+    package="com.android.CallTransfer"
     android:versionCode="2"
     android:versionName="1.0.1" >
 
@@ -53,9 +53,19 @@
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS" />
     <uses-permission android:name="freemme.permission.msa" />
+
+    <permission
+        android:name="com.android.CallTransfer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.android.CallTransfer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.READ_CALL_LOG" /> <!-- Barcode(二维码)  end -->
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.CALL_SCREENING_SERVICE" /> <!-- Barcode(二维码)  end -->
     <application
         android:name="io.dcloud.application.DCloudApplication"
         android:allowClearUserData="true"
@@ -171,7 +181,7 @@
             android:windowSoftInputMode="stateAlwaysHidden" /> <!-- gallery******end -->
         <provider
             android:name="io.dcloud.common.util.DCloud_FileProvider"
-            android:authorities="com.android.UniPlugin.dc.fileprovider"
+            android:authorities="com.android.CallTransfer.dc.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -207,7 +217,7 @@
 
         <provider
             android:name="io.dcloud.sdk.base.service.provider.DCloudAdFileProvider"
-            android:authorities="com.android.UniPlugin.dc.fileprovider"
+            android:authorities="com.android.CallTransfer.dc.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -220,6 +230,27 @@
             android:enabled="true"
             android:exported="false" >
         </receiver>
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="com.android.CallTransfer.androidx-startup"
+            android:exported="false" >
+            <meta-data
+                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+                android:value="androidx.startup" />
+            <meta-data
+                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+                android:value="androidx.startup" />
+        </provider>
+
+        <service
+            android:name="com.anyu.callforwarding.CallForwardingService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter android:priority="1000" >
+                <action android:name=".service.CallShowService" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

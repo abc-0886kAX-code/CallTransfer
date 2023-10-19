@@ -47,9 +47,13 @@ public class MyPhoneStateListener extends PhoneStateListener {
     }
     public void forwardCall(String phoneNumber) {
         try {
-            // 执行呼叫转发
-            Intent intent = new Intent(Intent.ACTION_CALL);
-            intent.setData(Uri.parse("tel:" + phoneNumber));
+//            // 执行呼叫转发
+//            Intent intent = new Intent(Intent.ACTION_CALL);
+//            intent.setData(Uri.parse("tel:" + phoneNumber));
+//            context.startActivity(intent);
+            // 根据来电号码执行转发操作
+            Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + phoneNumber));
+            intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             context.startActivity(intent);
         } catch (Exception e) {
             e.printStackTrace();

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.2.0" type="partial_results">
+    <map id="UnusedResources">
+        <entry
+            name="model"
+            string="drawable[icon(U),push(D),splash(D)],string[app_name(U)],style[TranslucentTheme(R),DCloudTheme(R)];;;;"/>
+        <location id="R.drawable.push"
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable-xxhdpi/push.png"/>
+        <location id="R.drawable.splash"
+            file="${:app*debug*sourceProvider*0*resDir*0}/drawable-xxhdpi/splash.png"/>
+    </map>
+
+</incidents>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\WorkSpace\\Android\\AnYu-UniPlugin\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-watch-v21\\values-watch-v21.xml",
+            "outputFile": "com.android.CallTransfer.app-mergeReleaseResources-28:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\YTXD\\.gradle\\caches\\transforms-3\\d7017407b2cb7d845835fb960e0f7235\\transformed\\appcompat-1.1.0\\res\\values-watch-v21\\values-watch-v21.xml",
+                    "source": "C:\\Users\\YTXD\\.gradle\\caches\\transforms-3\\3b8e43298f87263936452c42fdf1541a\\transformed\\appcompat-1.6.1\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

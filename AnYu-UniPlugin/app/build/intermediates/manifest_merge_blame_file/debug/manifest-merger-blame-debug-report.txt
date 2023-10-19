@@ -6,261 +6,261 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
+8-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="28" />
-9-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
+9-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml
 10
 11    <supports-screens
-11-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:6:5-11:39
+11-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:6:5-11:39
 12        android:anyDensity="true"
-12-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:7:9-34
+12-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:7:9-34
 13        android:largeScreens="true"
-13-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:8:9-36
+13-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:8:9-36
 14        android:normalScreens="true"
-14-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:9:9-37
+14-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:9:9-37
 15        android:resizeable="true"
-15-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:10:9-34
+15-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:10:9-34
 16        android:smallScreens="true" />
-16-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:11:9-36
+16-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:11:9-36
 17
 18    <!-- Barcode(二维码)  begin -->
 19    <uses-permission android:name="android.permission.CAMERA" />
-19-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:14:5-65
-19-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:14:22-62
+19-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:14:5-65
+19-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:14:22-62
 20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-20-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:15:5-81
-20-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:15:22-78
+20-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:15:5-81
+20-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:15:22-78
 21
 22    <uses-feature android:name="android.hardware.camera" />
-22-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:17:5-60
-22-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:17:19-57
+22-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:17:5-60
+22-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:17:19-57
 23    <uses-feature android:name="android.hardware.camera.autofocus" />
-23-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:18:5-70
-23-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:18:19-67
+23-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:18:5-70
+23-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:18:19-67
 24
 25    <uses-permission android:name="android.permission.VIBRATE" />
-25-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:20:5-66
-25-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:20:22-63
+25-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:20:5-66
+25-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:20:22-63
 26    <uses-permission android:name="android.permission.FLASHLIGHT" />
-26-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:21:5-69
-26-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:21:22-66
+26-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:21:5-69
+26-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:21:22-66
 27
 28    <!-- 适配android 13 图片选择权限 -->
 29    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-29-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:17:5-76
-29-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:17:22-73
+29-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:17:5-76
+29-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:17:22-73
 30    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
-30-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:18:5-75
-30-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:18:22-72
+30-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:18:5-75
+30-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:18:22-72
 31    <uses-permission android:name="android.permission.READ_MEDIA_VISUAL_USER_SELECTED" />
-31-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:19:5-90
-31-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:19:22-87
+31-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:19:5-90
+31-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:19:22-87
 32    <uses-permission android:name="android.permission.INTERNET" />
-32-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:20:5-67
-32-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:20:22-64
+32-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:20:5-67
+32-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:20:22-64
 33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-33-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:21:5-79
-33-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:21:22-76
+33-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:21:5-79
+33-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:21:22-76
 34    <!--
 35    <uses-permission
 36        android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
 37    -->
 38    <!-- 华为修改角标需要设置权限 -->
 39    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" /> <!-- vivo 修改角标需要设置权限 -->
-39-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:27:5-91
-39-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:27:22-88
+39-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:27:5-91
+39-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:27:22-88
 40    <uses-permission android:name="com.vivo.notification.permission.BADGE_ICON" />
-40-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:29:5-83
-40-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:29:22-80
+40-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:29:5-83
+40-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:29:22-80
 41
 42    <queries>
-42-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:31:5-40:15
+42-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:31:5-40:15
 43        <intent>
-43-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:32:9-34:18
+43-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:32:9-34:18
 44            <action android:name="android.intent.action.MAIN" />
-44-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:52:17-68
-44-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:52:25-66
+44-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:52:17-68
+44-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:52:25-66
 45        </intent>
 46        <intent>
-46-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:35:9-39:18
+46-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:35:9-39:18
 47            <action android:name="android.intent.action.VIEW" />
-47-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:41:17-68
-47-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:41:25-66
+47-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:41:17-68
+47-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:41:25-66
 48
 49            <category android:name="android.intent.category.DEFAULT" />
-49-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:17-75
-49-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:27-73
+49-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:17-75
+49-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:27-73
 50        </intent>
 51    </queries>
 52
 53    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 54    <uses-permission android:name="com.asus.msa.SupplementaryDID.ACCESS" />
-54-->[oaid_sdk_1.0.25.aar] C:\Users\26251\.gradle\caches\transforms-3\8dac24e8eca8440c0ce1dcbc155bf825\transformed\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:13:5-76
-54-->[oaid_sdk_1.0.25.aar] C:\Users\26251\.gradle\caches\transforms-3\8dac24e8eca8440c0ce1dcbc155bf825\transformed\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:13:22-73
+54-->[oaid_sdk_1.0.25.aar] C:\Users\YTXD\.gradle\caches\transforms-3\f9d48ddde616ef7d8334b2ce81b5749d\transformed\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:13:5-76
+54-->[oaid_sdk_1.0.25.aar] C:\Users\YTXD\.gradle\caches\transforms-3\f9d48ddde616ef7d8334b2ce81b5749d\transformed\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:13:22-73
 55    <uses-permission android:name="freemme.permission.msa" />
-55-->[oaid_sdk_1.0.25.aar] C:\Users\26251\.gradle\caches\transforms-3\8dac24e8eca8440c0ce1dcbc155bf825\transformed\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:15:5-62
-55-->[oaid_sdk_1.0.25.aar] C:\Users\26251\.gradle\caches\transforms-3\8dac24e8eca8440c0ce1dcbc155bf825\transformed\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:15:22-59
+55-->[oaid_sdk_1.0.25.aar] C:\Users\YTXD\.gradle\caches\transforms-3\f9d48ddde616ef7d8334b2ce81b5749d\transformed\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:15:5-62
+55-->[oaid_sdk_1.0.25.aar] C:\Users\YTXD\.gradle\caches\transforms-3\f9d48ddde616ef7d8334b2ce81b5749d\transformed\jetified-oaid_sdk_1.0.25\AndroidManifest.xml:15:22-59
 56
 57    <permission
-57-->[androidx.core:core:1.9.0] C:\Users\26251\.gradle\caches\transforms-3\8bfbcf315f46d0cacfeefa4e701cc930\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+57-->[androidx.core:core:1.9.0] C:\Users\YTXD\.gradle\caches\transforms-3\8bfbcf315f46d0cacfeefa4e701cc930\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 58        android:name="com.android.CallTransfer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-58-->[androidx.core:core:1.9.0] C:\Users\26251\.gradle\caches\transforms-3\8bfbcf315f46d0cacfeefa4e701cc930\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+58-->[androidx.core:core:1.9.0] C:\Users\YTXD\.gradle\caches\transforms-3\8bfbcf315f46d0cacfeefa4e701cc930\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 59        android:protectionLevel="signature" />
-59-->[androidx.core:core:1.9.0] C:\Users\26251\.gradle\caches\transforms-3\8bfbcf315f46d0cacfeefa4e701cc930\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+59-->[androidx.core:core:1.9.0] C:\Users\YTXD\.gradle\caches\transforms-3\8bfbcf315f46d0cacfeefa4e701cc930\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 60
 61    <uses-permission android:name="com.android.CallTransfer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-61-->[androidx.core:core:1.9.0] C:\Users\26251\.gradle\caches\transforms-3\8bfbcf315f46d0cacfeefa4e701cc930\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-61-->[androidx.core:core:1.9.0] C:\Users\26251\.gradle\caches\transforms-3\8bfbcf315f46d0cacfeefa4e701cc930\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+61-->[androidx.core:core:1.9.0] C:\Users\YTXD\.gradle\caches\transforms-3\8bfbcf315f46d0cacfeefa4e701cc930\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+61-->[androidx.core:core:1.9.0] C:\Users\YTXD\.gradle\caches\transforms-3\8bfbcf315f46d0cacfeefa4e701cc930\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 62    <uses-permission android:name="android.permission.CALL_PHONE" />
-62-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-69
-62-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-66
+62-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-69
+62-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-66
 63    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-63-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-75
-63-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-72
+63-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-75
+63-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-72
 64    <uses-permission android:name="android.permission.READ_CALL_LOG" />
-64-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-72
-64-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-69
+64-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-72
+64-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-69
 65    <uses-permission android:name="android.permission.READ_SMS" />
-65-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-67
-65-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-64
+65-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-67
+65-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-64
 66    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-66-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-75
-66-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-72
+66-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-75
+66-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-72
 67    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
-67-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-77
-67-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:22-74
+67-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:5-77
+67-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:14:22-74
 68    <uses-permission android:name="android.permission.CALL_SCREENING_SERVICE" /> <!-- Barcode(二维码)  end -->
-68-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-81
-68-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:22-78
+68-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-81
+68-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:22-78
 69    <application
-69-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:24:5-87:19
+69-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:24:5-87:19
 70        android:name="io.dcloud.application.DCloudApplication"
-70-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:25:9-63
+70-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:25:9-63
 71        android:allowClearUserData="true"
-71-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:26:9-42
+71-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:26:9-42
 72        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-72-->[androidx.core:core:1.9.0] C:\Users\26251\.gradle\caches\transforms-3\8bfbcf315f46d0cacfeefa4e701cc930\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+72-->[androidx.core:core:1.9.0] C:\Users\YTXD\.gradle\caches\transforms-3\8bfbcf315f46d0cacfeefa4e701cc930\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 73        android:debuggable="true"
 74        android:extractNativeLibs="true"
-74-->[uniapp-v8-release.aar] C:\Users\26251\.gradle\caches\transforms-3\27f1f9ab64e7d817ce2d451caa87399e\transformed\jetified-uniapp-v8-release\AndroidManifest.xml:29:18-50
+74-->[uniapp-v8-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\27f1f9ab64e7d817ce2d451caa87399e\transformed\jetified-uniapp-v8-release\AndroidManifest.xml:29:18-50
 75        android:icon="@drawable/icon"
-75-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:27:9-38
+75-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:27:9-38
 76        android:label="@string/app_name"
-76-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:28:9-41
+76-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:28:9-41
 77        android:largeHeap="true"
-77-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:29:9-33
+77-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:29:9-33
 78        android:supportsRtl="true"
-78-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:30:9-35
+78-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:30:9-35
 79        android:testOnly="true"
 80        android:usesCleartextTraffic="true" >
-80-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:175:9-44
+80-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:175:9-44
 81
 82        <!-- 应用入口 -->
 83        <activity
-83-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:33:9-55:20
+83-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:33:9-55:20
 84            android:name="io.dcloud.PandoraEntry"
-84-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:34:13-50
+84-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:34:13-50
 85            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale"
-85-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:36:13-92
+85-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:36:13-92
 86            android:hardwareAccelerated="true"
-86-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:37:13-47
+86-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:37:13-47
 87            android:theme="@style/TranslucentTheme"
-87-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:35:13-52
+87-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:35:13-52
 88            android:windowSoftInputMode="adjustResize" >
-88-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:38:13-55
+88-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:38:13-55
 89            <intent-filter>
-89-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:39:13-45:29
+89-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:39:13-45:29
 90                <data android:scheme="hbuilder" />
-90-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:40:17-50
-90-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:40:23-48
+90-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:40:17-50
+90-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:40:23-48
 91
 92                <action android:name="android.intent.action.VIEW" />
-92-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:41:17-68
-92-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:41:25-66
+92-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:41:17-68
+92-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:41:25-66
 93
 94                <category android:name="android.intent.category.DEFAULT" />
-94-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:17-75
-94-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:27-73
+94-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:17-75
+94-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:27-73
 95                <category android:name="android.intent.category.BROWSABLE" />
-95-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:44:17-77
-95-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:44:27-75
+95-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:44:17-77
+95-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:44:27-75
 96            </intent-filter>
 97            <intent-filter>
-97-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:46:13-50:29
+97-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:46:13-50:29
 98                <data android:mimeType="image/*" />
-98-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:40:17-50
-98-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:47:23-49
+98-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:40:17-50
+98-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:47:23-49
 99
 100                <action android:name="android.intent.action.SEND" />
-100-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:48:17-68
-100-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:48:25-66
+100-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:48:17-68
+100-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:48:25-66
 101
 102                <category android:name="android.intent.category.DEFAULT" />
-102-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:17-75
-102-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:27-73
+102-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:17-75
+102-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:27-73
 103            </intent-filter>
 104            <intent-filter>
-104-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:51:13-54:29
+104-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:51:13-54:29
 105                <action android:name="android.intent.action.MAIN" />
-105-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:52:17-68
-105-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:52:25-66
+105-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:52:17-68
+105-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:52:25-66
 106
 107                <category android:name="android.intent.category.LAUNCHER" />
-107-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:53:17-76
-107-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:53:27-74
+107-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:53:17-76
+107-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:53:27-74
 108            </intent-filter>
 109        </activity>
 110
 111        <meta-data
-111-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:56:9-57:35
+111-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:56:9-57:35
 112            android:name="dcloud_uninview_background"
-112-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:56:20-61
+112-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:56:20-61
 113            android:value="true" />
-113-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:57:13-33
+113-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:57:13-33
 114
 115        <activity
-115-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:59:9-83:20
+115-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:59:9-83:20
 116            android:name="io.dcloud.PandoraEntryActivity"
-116-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:60:13-58
+116-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:60:13-58
 117            android:configChanges="orientation|keyboardHidden|screenSize|mcc|mnc|fontScale|keyboard|smallestScreenSize|screenLayout|screenSize|uiMode"
-117-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:62:13-151
+117-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:62:13-151
 118            android:hardwareAccelerated="true"
-118-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:63:13-47
+118-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:63:13-47
 119            android:launchMode="singleTask"
-119-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:61:13-44
+119-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:61:13-44
 120            android:permission="com.miui.securitycenter.permission.AppPermissionsEditor"
-120-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:64:13-89
+120-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:64:13-89
 121            android:screenOrientation="user"
-121-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:65:13-45
+121-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:65:13-45
 122            android:theme="@style/DCloudTheme"
-122-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:66:13-47
+122-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:66:13-47
 123            android:windowSoftInputMode="adjustResize" >
-123-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:67:13-55
+123-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:67:13-55
 124            <intent-filter>
-124-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:69:13-82:29
+124-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:69:13-82:29
 125                <category android:name="android.intent.category.DEFAULT" />
-125-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:17-75
-125-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:27-73
+125-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:17-75
+125-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:43:27-73
 126                <category android:name="android.intent.category.BROWSABLE" />
-126-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:44:17-77
-126-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:44:27-75
+126-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:44:17-77
+126-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:44:27-75
 127
 128                <action android:name="android.intent.action.VIEW" />
-128-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:41:17-68
-128-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:41:25-66
+128-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:41:17-68
+128-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:41:25-66
 129
 130                <data android:scheme=" " />
-130-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:40:17-50
-130-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:40:23-48
+130-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:40:17-50
+130-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:40:23-48
 131            </intent-filter>
 132        </activity>
 133
 134        <meta-data
-134-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:84:9-86:64
+134-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:84:9-86:64
 135            android:name="dcloud_appkey"
-135-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:85:13-41
+135-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:85:13-41
 136            android:value="a1878004de666726aed3590be72fe381" />
-136-->E:\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:86:13-61
+136-->D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app\src\main\AndroidManifest.xml:86:13-61
 137        <!--
 138        <activity
 139            android:name="io.dcloud.imagepick.CustomGalleryActivity"
@@ -268,102 +268,102 @@
 141            android:exported="false"/>
 142        -->
 143        <activity
-143-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:184:9-190:58
+143-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:184:9-190:58
 144            android:name="io.dcloud.feature.nativeObj.photoview.PhotoActivity"
-144-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:185:13-79
+144-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:185:13-79
 145            android:configChanges="orientation|keyboardHidden"
-145-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:186:13-63
+145-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:186:13-63
 146            android:exported="false"
-146-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:187:13-37
+146-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:187:13-37
 147            android:noHistory="false"
-147-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:188:13-38
+147-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:188:13-38
 148            android:screenOrientation="behind"
-148-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:189:13-47
+148-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:189:13-47
 149            android:theme="@style/DeviceDefault.Light" />
-149-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:190:13-55
+149-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:190:13-55
 150        <activity
-150-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:191:9-200:58
+150-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:191:9-200:58
 151            android:name="io.dcloud.WebAppActivity"
-151-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:192:13-52
+151-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:192:13-52
 152            android:configChanges="orientation|keyboard|keyboardHidden|smallestScreenSize|screenLayout|screenSize|mcc|mnc|fontScale|navigation"
-152-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:193:13-144
+152-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:193:13-144
 153            android:hardwareAccelerated="true"
-153-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:194:13-47
+153-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:194:13-47
 154            android:icon="@drawable/dcloud_recent"
-154-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:195:13-51
+154-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:195:13-51
 155            android:label="@string/stream_my"
-155-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:196:13-46
+155-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:196:13-46
 156            android:launchMode="singleTask"
-156-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:197:13-44
+156-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:197:13-44
 157            android:screenOrientation="portrait"
-157-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:198:13-49
+157-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:198:13-49
 158            android:theme="@style/DCloudTheme"
-158-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:199:13-47
+158-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:199:13-47
 159            android:windowSoftInputMode="adjustResize" />
-159-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:200:13-55
+159-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:200:13-55
 160        <activity
-160-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:201:9-205:75
+160-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:201:9-205:75
 161            android:name="io.dcloud.ProcessMediator"
-161-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:202:13-53
+161-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:202:13-53
 162            android:excludeFromRecents="true"
-162-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:203:13-46
+162-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:203:13-46
 163            android:exported="false"
-163-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:204:13-37
+163-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:204:13-37
 164            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-164-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:205:13-72
+164-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:205:13-72
 165        <activity
-165-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:206:9-212:20
+165-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:206:9-212:20
 166            android:name="io.dcloud.WebviewActivity"
-166-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:207:13-53
+166-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:207:13-53
 167            android:exported="false"
-167-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:208:13-37
+167-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:208:13-37
 168            android:screenOrientation="portrait"
-168-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:209:13-49
+168-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:209:13-49
 169            android:theme="@style/ThemeNoTitleBar"
-169-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:210:13-51
+169-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:210:13-51
 170            android:windowSoftInputMode="adjustPan" >
-170-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:211:13-52
+170-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:211:13-52
 171        </activity> <!-- gallery******start -->
 172        <activity
-172-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:215:9-220:63
+172-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:215:9-220:63
 173            android:name="com.dmcbig.mediapicker.PickerActivity"
-173-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:216:13-65
+173-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:216:13-65
 174            android:configChanges="orientation|screenSize"
-174-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:217:13-59
+174-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:217:13-59
 175            android:exported="false"
-175-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:218:13-37
+175-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:218:13-37
 176            android:theme="@style/DeviceDefault.Light"
-176-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:219:13-55
+176-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:219:13-55
 177            android:windowSoftInputMode="stateAlwaysHidden" />
-177-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:220:13-60
+177-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:220:13-60
 178        <activity
-178-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:221:9-226:63
+178-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:221:9-226:63
 179            android:name="com.dmcbig.mediapicker.PreviewActivity"
-179-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:222:13-66
+179-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:222:13-66
 180            android:configChanges="orientation|screenSize"
-180-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:223:13-59
+180-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:223:13-59
 181            android:exported="false"
-181-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:224:13-37
+181-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:224:13-37
 182            android:theme="@style/DeviceDefault.Light"
-182-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:225:13-55
+182-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:225:13-55
 183            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- gallery******end -->
-183-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:226:13-60
+183-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:226:13-60
 184        <provider
-184-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:229:9-237:20
+184-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:229:9-237:20
 185            android:name="io.dcloud.common.util.DCloud_FileProvider"
-185-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:230:13-69
+185-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:230:13-69
 186            android:authorities="com.android.CallTransfer.dc.fileprovider"
-186-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:231:13-67
+186-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:231:13-67
 187            android:exported="false"
-187-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:232:13-37
+187-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:232:13-37
 188            android:grantUriPermissions="true" >
-188-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:233:13-47
+188-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:233:13-47
 189            <meta-data
-189-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:234:13-236:64
+189-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:234:13-236:64
 190                android:name="android.support.FILE_PROVIDER_PATHS"
-190-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:235:17-67
+190-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:235:17-67
 191                android:resource="@xml/dcloud_file_provider" />
-191-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:236:17-61
+191-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:236:17-61
 192        </provider>
 193        <!--
 194            <meta-data
@@ -371,107 +371,107 @@
 196            android:value="io.dcloud.%APPID%|%APPID%|" />
 197        -->
 198        <meta-data
-198-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:244:9-246:35
+198-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:244:9-246:35
 199            android:name="android.max_aspect"
-199-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:245:13-46
+199-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:245:13-46
 200            android:value="2.4" />
-200-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:246:13-32
+200-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:246:13-32
 201
 202        <activity
-202-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:248:9-253:63
+202-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:248:9-253:63
 203            android:name="io.dcloud.feature.gallery.imageedit.IMGEditActivity"
-203-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:249:13-79
+203-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:249:13-79
 204            android:configChanges="orientation|keyboardHidden|screenSize"
-204-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:250:13-74
+204-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:250:13-74
 205            android:exported="false"
-205-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:251:13-37
+205-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:251:13-37
 206            android:theme="@style/ImageEditTheme"
-206-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:252:13-50
+206-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:252:13-50
 207            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- 广告相关配置开始 -->
-207-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:253:13-60
+207-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:253:13-60
 208        <activity
-208-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:256:9-261:55
+208-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:256:9-261:55
 209            android:name="io.dcloud.sdk.activity.WebViewActivity"
-209-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:257:13-66
+209-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:257:13-66
 210            android:exported="false"
-210-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:258:13-37
+210-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:258:13-37
 211            android:screenOrientation="portrait"
-211-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:259:13-49
+211-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:259:13-49
 212            android:theme="@style/ThemeNoTitleBar"
-212-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:260:13-51
+212-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:260:13-51
 213            android:windowSoftInputMode="adjustPan" />
-213-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:261:13-52
+213-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:261:13-52
 214
 215        <service
-215-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:263:9-266:72
+215-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:263:9-266:72
 216            android:name="io.dcloud.sdk.base.service.DownloadService"
-216-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:264:13-70
+216-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:264:13-70
 217            android:exported="false"
-217-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:265:13-37
+217-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:265:13-37
 218            android:permission="android.permission.BIND_JOB_SERVICE" />
-218-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:266:13-69
+218-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:266:13-69
 219
 220        <provider
-220-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:268:9-276:20
+220-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:268:9-276:20
 221            android:name="io.dcloud.sdk.base.service.provider.DCloudAdFileProvider"
-221-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:269:13-84
+221-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:269:13-84
 222            android:authorities="com.android.CallTransfer.dc.fileprovider"
-222-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:270:13-67
+222-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:270:13-67
 223            android:exported="false"
-223-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:271:13-37
+223-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:271:13-37
 224            android:grantUriPermissions="true" >
-224-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:272:13-47
+224-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:272:13-47
 225            <meta-data
-225-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:234:13-236:64
+225-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:234:13-236:64
 226                android:name="android.support.FILE_PROVIDER_PATHS"
-226-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:235:17-67
+226-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:235:17-67
 227                android:resource="@xml/dcloud_gg_file_provider" />
-227-->[lib.5plus.base-release.aar] C:\Users\26251\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:236:17-61
+227-->[lib.5plus.base-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\2d3ee28f5ab8c7b94d22e53598c5602f\transformed\jetified-lib.5plus.base-release\AndroidManifest.xml:236:17-61
 228        </provider>
 229
 230        <receiver
-230-->[uniapp-v8-release.aar] C:\Users\26251\.gradle\caches\transforms-3\27f1f9ab64e7d817ce2d451caa87399e\transformed\jetified-uniapp-v8-release\AndroidManifest.xml:30:9-34:20
+230-->[uniapp-v8-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\27f1f9ab64e7d817ce2d451caa87399e\transformed\jetified-uniapp-v8-release\AndroidManifest.xml:30:9-34:20
 231            android:name="com.taobao.weex.WXGlobalEventReceiver"
-231-->[uniapp-v8-release.aar] C:\Users\26251\.gradle\caches\transforms-3\27f1f9ab64e7d817ce2d451caa87399e\transformed\jetified-uniapp-v8-release\AndroidManifest.xml:31:13-65
+231-->[uniapp-v8-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\27f1f9ab64e7d817ce2d451caa87399e\transformed\jetified-uniapp-v8-release\AndroidManifest.xml:31:13-65
 232            android:enabled="true"
-232-->[uniapp-v8-release.aar] C:\Users\26251\.gradle\caches\transforms-3\27f1f9ab64e7d817ce2d451caa87399e\transformed\jetified-uniapp-v8-release\AndroidManifest.xml:32:13-35
+232-->[uniapp-v8-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\27f1f9ab64e7d817ce2d451caa87399e\transformed\jetified-uniapp-v8-release\AndroidManifest.xml:32:13-35
 233            android:exported="false" >
-233-->[uniapp-v8-release.aar] C:\Users\26251\.gradle\caches\transforms-3\27f1f9ab64e7d817ce2d451caa87399e\transformed\jetified-uniapp-v8-release\AndroidManifest.xml:33:13-37
+233-->[uniapp-v8-release.aar] C:\Users\YTXD\.gradle\caches\transforms-3\27f1f9ab64e7d817ce2d451caa87399e\transformed\jetified-uniapp-v8-release\AndroidManifest.xml:33:13-37
 234        </receiver>
 235
 236        <provider
-236-->[androidx.emoji2:emoji2:1.2.0] C:\Users\26251\.gradle\caches\transforms-3\17116c6de44ad80e496d16726517f549\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+236-->[androidx.emoji2:emoji2:1.2.0] C:\Users\YTXD\.gradle\caches\transforms-3\17116c6de44ad80e496d16726517f549\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 237            android:name="androidx.startup.InitializationProvider"
-237-->[androidx.emoji2:emoji2:1.2.0] C:\Users\26251\.gradle\caches\transforms-3\17116c6de44ad80e496d16726517f549\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+237-->[androidx.emoji2:emoji2:1.2.0] C:\Users\YTXD\.gradle\caches\transforms-3\17116c6de44ad80e496d16726517f549\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
 238            android:authorities="com.android.CallTransfer.androidx-startup"
-238-->[androidx.emoji2:emoji2:1.2.0] C:\Users\26251\.gradle\caches\transforms-3\17116c6de44ad80e496d16726517f549\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+238-->[androidx.emoji2:emoji2:1.2.0] C:\Users\YTXD\.gradle\caches\transforms-3\17116c6de44ad80e496d16726517f549\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
 239            android:exported="false" >
-239-->[androidx.emoji2:emoji2:1.2.0] C:\Users\26251\.gradle\caches\transforms-3\17116c6de44ad80e496d16726517f549\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+239-->[androidx.emoji2:emoji2:1.2.0] C:\Users\YTXD\.gradle\caches\transforms-3\17116c6de44ad80e496d16726517f549\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
 240            <meta-data
-240-->[androidx.emoji2:emoji2:1.2.0] C:\Users\26251\.gradle\caches\transforms-3\17116c6de44ad80e496d16726517f549\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+240-->[androidx.emoji2:emoji2:1.2.0] C:\Users\YTXD\.gradle\caches\transforms-3\17116c6de44ad80e496d16726517f549\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
 241                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-241-->[androidx.emoji2:emoji2:1.2.0] C:\Users\26251\.gradle\caches\transforms-3\17116c6de44ad80e496d16726517f549\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+241-->[androidx.emoji2:emoji2:1.2.0] C:\Users\YTXD\.gradle\caches\transforms-3\17116c6de44ad80e496d16726517f549\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
 242                android:value="androidx.startup" />
-242-->[androidx.emoji2:emoji2:1.2.0] C:\Users\26251\.gradle\caches\transforms-3\17116c6de44ad80e496d16726517f549\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+242-->[androidx.emoji2:emoji2:1.2.0] C:\Users\YTXD\.gradle\caches\transforms-3\17116c6de44ad80e496d16726517f549\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
 243            <meta-data
-243-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\26251\.gradle\caches\transforms-3\16119237b3edb443f37de14aaa8fcfe3\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+243-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\YTXD\.gradle\caches\transforms-3\16119237b3edb443f37de14aaa8fcfe3\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
 244                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-244-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\26251\.gradle\caches\transforms-3\16119237b3edb443f37de14aaa8fcfe3\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+244-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\YTXD\.gradle\caches\transforms-3\16119237b3edb443f37de14aaa8fcfe3\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
 245                android:value="androidx.startup" />
-245-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\26251\.gradle\caches\transforms-3\16119237b3edb443f37de14aaa8fcfe3\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+245-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\YTXD\.gradle\caches\transforms-3\16119237b3edb443f37de14aaa8fcfe3\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
 246        </provider>
 247
 248        <service
-248-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-25:19
+248-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-25:19
 249            android:name="com.anyu.callforwarding.CallForwardingService"
-249-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-73
+249-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-73
 250            android:enabled="true"
-250-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-35
+250-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-35
 251            android:exported="false" >
-251-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
+251-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-37
 252            <intent-filter android:priority="1000" >
-252-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-24:29
-252-->[:callforwarding] E:\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:28-51
+252-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-24:29
+252-->[:callforwarding] D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\callforwarding\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:28-51
 253                <action android:name=".service.CallShowService" />
 254            </intent-filter>
 255        </service>

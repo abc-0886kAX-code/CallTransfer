@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\WorkSpace\\Android\\AnYu-UniPlugin\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "com.android.CallTransfer.app-mergeReleaseResources-28:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\YTXD\\.gradle\\caches\\transforms-3\\d7017407b2cb7d845835fb960e0f7235\\transformed\\appcompat-1.1.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\YTXD\\.gradle\\caches\\transforms-3\\8bfbcf315f46d0cacfeefa4e701cc930\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\YTXD\\.gradle\\caches\\transforms-3\\3b8e43298f87263936452c42fdf1541a\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\YTXD\\.gradle\\caches\\transforms-3\\e0d2f8ad044427eee984d921896a19f7\\transformed\\core-1.1.0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

@@ -1,5 +1,7 @@
 package com.anyu.callforwarding;
 
+import static com.anyu.callforwarding.utils.CallForwardingUtils.startCallForwarding;
+
 import android.Manifest;
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -18,6 +20,7 @@ import androidx.core.app.ActivityCompat;
 
 import com.alibaba.fastjson.JSONObject;
 import com.anyu.callforwarding.dto.CallForwardingDto;
+import com.anyu.callforwarding.utils.SPUtils;
 import com.taobao.weex.bridge.JSCallback;
 
 import io.dcloud.feature.uniapp.annotation.UniJSMethod;
@@ -55,6 +58,8 @@ public class CallTransferHandler extends UniModule {
 
         CallForwardingDto.setOverallSituationPhone(phone);
         callTransferStateListener(null);
+        SPUtils.saveNumber(super.mUniSDKInstance.getContext(),"cellPhoneNumber",phone);
+        startCallForwarding(super.mUniSDKInstance.getContext());
 //        Intent dialIntent = new Intent(Intent.ACTION_CALL,
 //                Uri.parse(String.format("tel:%s", phone)));
 //        dialIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);

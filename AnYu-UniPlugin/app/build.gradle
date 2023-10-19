@@ -58,6 +58,9 @@ android {
             enable false
         }
     }
+    lint {
+        baseline = file("lint-baseline.xml")
+    }
 }
 repositories {
     flatDir {

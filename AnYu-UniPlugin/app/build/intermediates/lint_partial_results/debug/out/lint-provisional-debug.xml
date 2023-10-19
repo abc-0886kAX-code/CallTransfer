@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.2.0" type="conditional_incidents">
+
+    <incident
+        id="ScopedStorage"
+        severity="warning"
+        message="">
+        <location
+            file="${:app*debug*sourceProvider*0*manifest*0}"
+            line="15"
+            column="36"
+            startOffset="550"
+            endLine="15"
+            endColumn="77"
+            endOffset="591"/>
+        <map>
+            <entry
+                name="maxSdk"
+                int="2147483647"/>
+        </map>
+    </incident>
+
+    <incident
+        id="IntentFilterExportedReceiver"
+        severity="warning"
+        message="As of Android 12, `android:exported` must be set; use `true` to make the activity \&#xA;available to other apps, and `false` otherwise.">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set exported=&quot;true&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="exported"
+                value="true"/>
+            <fix-attribute
+                description="Set exported=&quot;false&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="exported"
+                value="false"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*manifest*0}"
+            line="33"
+            column="10"
+            startOffset="1215"
+            endLine="33"
+            endColumn="18"
+            endOffset="1223"/>
+    </incident>
+
+    <incident
+        id="IntentFilterExportedReceiver"
+        severity="warning"
+        message="As of Android 12, `android:exported` must be set; use `true` to make the activity \&#xA;available to other apps, and `false` otherwise.">
+        <fix-alternatives>
+            <fix-attribute
+                description="Set exported=&quot;true&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="exported"
+                value="true"/>
+            <fix-attribute
+                description="Set exported=&quot;false&quot;"
+                namespace="http://schemas.android.com/apk/res/android"
+                attribute="exported"
+                value="false"/>
+        </fix-alternatives>
+        <location
+            file="${:app*debug*sourceProvider*0*manifest*0}"
+            line="59"
+            column="10"
+            startOffset="2453"
+            endLine="59"
+            endColumn="18"
+            endOffset="2461"/>
+    </incident>
+
+    <incident
+        id="ExpiredTargetSdkVersion"
+        severity="fatal"
+        message="Google Play requires that apps target API level 30 or higher.&#xA;">
+        <fix-replace
+            description="Update targetSdkVersion to 34"
+            oldString="28"
+            replacement="34"/>
+        <location
+            file="${:app*projectDir}/build.gradle"
+            line="9"
+            column="9"
+            startOffset="210"
+            endLine="9"
+            endColumn="28"
+            endOffset="229"/>
+    </incident>
+
+</incidents>
