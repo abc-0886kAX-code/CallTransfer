@@ -9,6 +9,7 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 
@@ -17,6 +18,7 @@ import androidx.core.app.ActivityCompat;
 
 import com.alibaba.fastjson.JSONObject;
 import com.anyu.callforwarding.dto.CallForwardingDto;
+import com.taobao.weex.bridge.JSCallback;
 
 import io.dcloud.feature.uniapp.annotation.UniJSMethod;
 import io.dcloud.feature.uniapp.common.UniDestroyableModule;
@@ -51,13 +53,12 @@ public class CallTransferHandler extends UniModule {
         String phone = options.getString("phone");
         Log.e("tag",phone);
 
-//        CallForwardingDto.setOverallSituationPhone(phone);
-
-
-        Intent dialIntent = new Intent(Intent.ACTION_CALL,
-                Uri.parse(String.format("tel:%s", phone)));
-        dialIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        super.mUniSDKInstance.getContext().startActivity(dialIntent);
+        CallForwardingDto.setOverallSituationPhone(phone);
+        callTransferStateListener(null);
+//        Intent dialIntent = new Intent(Intent.ACTION_CALL,
+//                Uri.parse(String.format("tel:%s", phone)));
+//        dialIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//        super.mUniSDKInstance.getContext().startActivity(dialIntent);
     }
 
     /**
@@ -101,5 +102,16 @@ public class CallTransferHandler extends UniModule {
         Intent callTransferIntent = new Intent(Intent.ACTION_CALL);
         callTransferIntent.setData(Uri.parse("tel:17333443450"));
 
+    }
+
+    /**
+     * 添加来点监听
+     * @param jsCallback
+     */
+    public  void callTransferStateListener(JSCallback jsCallback){
+        Context context = super.mUniSDKInstance.getContext();
+        TelephonyManager telephonyManager = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
+        MyPhoneStateListener phoneStateListener = new MyPhoneStateListener(context);
+        telephonyManager.listen(phoneStateListener, PhoneStateListener.LISTEN_CALL_STATE);
     }
 }
