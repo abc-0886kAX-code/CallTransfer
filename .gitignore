@@ -2,3 +2,8 @@
 /build
 /.hbuilderx
 /unpackage
+/AnYu-UniPlugin/.idea
+/*/.idea
+/*/build
+/*/.hbuilderx
+/*/unpackage
