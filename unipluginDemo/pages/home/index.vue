@@ -4,7 +4,19 @@
 			<icon class="home-exit-button e-icon" size="26" type="cancel" @click="handleExit" color="#fff"></icon>
 		</div>
 		<div class="home-form">
+			
+			<view class="u-input home-form-item">
+				<picker class="picker"  @change="cardSlotChange" :value="cardSlot" :range="cardSlotOptions">
+						<view class="picker-view">{{cardSlotOptions[cardSlot]}}</view>
+				</picker>
+			</view>
+			<view class="u-input home-form-item">
+				<picker class="picker"  @change="operatorChange" :value="operator" :range="operatorOptions">
+						<view class="picker-view">{{operatorOptions[operator]}}</view>
+				</picker>
+			</view>
 			<input class="u-input home-form-item" v-model="phone" type="text" placeholder="来电转移电话">
+			
 		</div>
 		<div class="home-console">
 			<button class="home-console-button s-button" @click="handleSetup">设置</button>
@@ -16,11 +28,38 @@
 	export default {
 		data() {
 			return {
-				phone:''
+				cardSlotOptions:Object.freeze([
+					'卡槽一','卡槽二'
+				]),
+				cardSlot:'0',
+				operatorOptions:Object.freeze([
+					'中国电信','中国移动/中国联通'
+				]),
+				operator:'0',
+				phone:'',
+			}
+		},
+		computed:{
+			formValue(){
+				return{
+					phone:this.phone,
+					slot:this.cardSlot,
+					operator:this.operator === '0' ? '72' : '21'
+				}
 			}
 		},
 		onLoad() {},
 		methods: {
+			cardSlotChange(e){
+				this.cardSlot = e.detail.value;
+			},
+			operatorChange(e){
+				this.operator = e.detail.value;
+			},
+			verifyPhone(){
+				var reg_tel = /^(13[0-9]|14[01456879]|15[0-35-9]|16[2567]|17[0-8]|18[0-9]|19[0-35-9])\d{8}$/;    //11位手机号码正则
+				return !reg_tel.test(this.phone);
+			},
 			handleSetup(){
 				if(!this.phone){
 					uni.showToast({
@@ -29,8 +68,20 @@
 					})
 					return;
 				}
+				if(this.verifyPhone()){
+					uni.showToast({
+						title:'请输入正确的手机号',
+						icon:'error'
+					})
+					return;
+				}
+				uni.showToast({
+					title:'设置成功!',
+					icon:'success'
+				})
 				// 此处返回提示消息是否启动并且设置成功
-				callforwarding.setOverallSituationPhone({phone:this.phone})
+				callforwarding.setOverallSituationPhone(this.formValue)
+				
 			},
 			handleExit(){
 				
@@ -55,14 +106,14 @@
 			position: absolute;
 			top: 24%;
 			width: 100%;
-			height: 210rpx;
+			height: 350rpx;
 			margin: 0 auto;
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
 			align-items: center;
 			&-item{
-				height: 42%;
+				height: 26%;
 				width: 75%;
 				
 			}
@@ -78,10 +129,10 @@
 			}
 		}
 		&-exit{
-			width: 100%;
+			width: auto;
 			position: absolute;
-			top: 0;
-			right: 0;
+			top: 10rpx;
+			right: 10rpx;
 			&-button{
 				width: 70rpx;
 				height: 70rpx;

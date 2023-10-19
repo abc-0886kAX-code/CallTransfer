@@ -59,7 +59,15 @@
             /* ios打包配置 */
             "ios" : {},
             /* SDK配置 */
-            "sdkConfigs" : {}
+            "sdkConfigs" : {},
+            "icons" : {
+                "android" : {
+                    "hdpi" : "static/LOGO/72.png",
+                    "xhdpi" : "static/LOGO/96.png",
+                    "xxhdpi" : "static/LOGO/144.png",
+                    "xxxhdpi" : "static/LOGO/192.png"
+                }
+            }
         }
     },
     /* 快应用特有相关 */
