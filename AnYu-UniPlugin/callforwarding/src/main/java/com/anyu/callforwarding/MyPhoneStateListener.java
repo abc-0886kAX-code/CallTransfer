@@ -5,17 +5,10 @@ import static android.content.Context.TELEPHONY_SERVICE;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import android.os.Build;
 import android.telecom.Call;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
 import android.util.Log;
-
-import androidx.core.app.ActivityCompat;
-
-import com.anyu.callforwarding.dto.CallForwardingDto;
-
-import java.lang.reflect.InvocationTargetException;
 
 public class MyPhoneStateListener extends PhoneStateListener {
     private Context context;
@@ -33,7 +26,7 @@ public class MyPhoneStateListener extends PhoneStateListener {
             case TelephonyManager.CALL_STATE_RINGING:
                 // 有来电
                 Log.d("PhoneListener", "有来电，来电号码: " + incomingNumber);
-                forwardCall(CallForwardingDto.getForwardingPhone("8520"));
+//                forwardCall(CallForwardingDto.getForwardingPhone("8520"));
                 break;
             case TelephonyManager.CALL_STATE_OFFHOOK:
                 // 通话中
