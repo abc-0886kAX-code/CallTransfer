@@ -43,8 +43,10 @@
 			formValue(){
 				return{
 					phone:this.phone,
-					slot:this.cardSlot,
-					operator:this.operator === '0' ? '72' : '21'
+					icmslot:this.cardSlot,
+					operator:this.operator === '0' ? '72' : '21',
+					openforward:true, //启用
+					forwardtype:'01' // 无条件转移
 				}
 			}
 		},
