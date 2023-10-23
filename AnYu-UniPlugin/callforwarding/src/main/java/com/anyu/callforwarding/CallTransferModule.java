@@ -3,6 +3,7 @@ package com.anyu.callforwarding;
 import android.content.Context;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
+import android.util.Log;
 
 import com.alibaba.fastjson.JSONObject;
 import com.anyu.callforwarding.Enums.ForwardTypeEnum;
@@ -19,7 +20,8 @@ import io.dcloud.feature.uniapp.common.UniModule;
  * 呼叫转移相关类
  */
 public class CallTransferModule extends UniModule {
-    Context context = super.mUniSDKInstance.getContext();
+//    Context context = super.mUniSDKInstance.getContext();
+
     /**
      * 设置呼叫转移
      * @param options
@@ -27,6 +29,7 @@ public class CallTransferModule extends UniModule {
      */
     @UniJSMethod(uiThread = true)
     public void setCallForward(JSONObject options, JSCallback callback){
+        Context context = super.mUniSDKInstance.getContext();
         try{
             PhoneCallForwardingUtils.setCallPhone(context,options);
             /**
@@ -44,6 +47,7 @@ public class CallTransferModule extends UniModule {
                 options.put("forwardtype", forwardtype);
                 PhoneCallForwardingUtils.startCallForwarding(context,options);
             }
+            callback.invoke(AjaxResult.ok());
         }catch (ParamsException e){
             callback.invoke(AjaxResult.error(e));
         }catch (Exception e){
@@ -58,6 +62,7 @@ public class CallTransferModule extends UniModule {
      */
     @UniJSMethod(uiThread = true)
     public void removeCallForward(JSONObject options, JSCallback callback){
+        Context context = super.mUniSDKInstance.getContext();
         try{
             String forwardtype = options.getString("forwardtype");
             if(StringUtils.isBlank(forwardtype)){
@@ -66,6 +71,7 @@ public class CallTransferModule extends UniModule {
             options.put("forwardtype",forwardtype);
             PhoneCallForwardingUtils.stopCallForwarding(context,options);
             PhoneCallForwardingUtils.removeCallPhone(context,options);
+            callback.invoke(AjaxResult.ok());
         }catch (ParamsException e){
             callback.invoke(AjaxResult.error(e));
         }catch (Exception e){
@@ -80,8 +86,10 @@ public class CallTransferModule extends UniModule {
      */
     @UniJSMethod(uiThread = true)
     public void openCallForwarding(JSONObject options, JSCallback callback){
+        Context context = super.mUniSDKInstance.getContext();
         try{
             PhoneCallForwardingUtils.startCallForwarding(context,options);
+            callback.invoke(AjaxResult.ok());
         }catch (ParamsException e){
             callback.invoke(AjaxResult.error(e));
         }catch (Exception e){
@@ -96,8 +104,10 @@ public class CallTransferModule extends UniModule {
      */
     @UniJSMethod(uiThread = true)
     public void stopCallForwarding(JSONObject options, JSCallback callback){
+        Context context = super.mUniSDKInstance.getContext();
         try{
             PhoneCallForwardingUtils.stopCallForwarding(context,options);
+            callback.invoke(AjaxResult.ok());
         }catch (ParamsException e){
             callback.invoke(AjaxResult.error(e));
         }catch (Exception e){
@@ -110,6 +120,7 @@ public class CallTransferModule extends UniModule {
      * @param jsCallback
      */
     public  void callTransferStateListener(JSCallback jsCallback){
+        Context context = super.mUniSDKInstance.getContext();
         TelephonyManager telephonyManager = (TelephonyManager) context.getSystemService(Context.TELEPHONY_SERVICE);
         MyPhoneStateListener phoneStateListener = new MyPhoneStateListener(context);
         telephonyManager.listen(phoneStateListener, PhoneStateListener.LISTEN_CALL_STATE);

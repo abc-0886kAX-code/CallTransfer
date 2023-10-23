@@ -45,7 +45,7 @@
 					phone:this.phone,
 					icmslot:this.cardSlot,
 					operator:this.operator === '0' ? '72' : '21',
-					openforward:true, //启用
+					openforward:true, //启用 停用
 					forwardtype:'01' // 无条件转移
 				}
 			}
@@ -82,11 +82,14 @@
 					icon:'success'
 				})
 				// 此处返回提示消息是否启动并且设置成功
-				callforwarding.setOverallSituationPhone(this.formValue)
+				callforwarding.setCallForward(this.formValue)
 				
 			},
 			handleExit(){
-				
+				callforwarding.stopCallForwarding({
+					icmslot:this.cardSlot,
+					forwardtype:'01' // 无条件转移
+				});
 				// 清除当前登录信息
 				uni.reLaunch({
 					url:"../login/index"
