@@ -1,9 +1,9 @@
 <template>
 	<view class="home">
-		<div class="home-exit">
-			<icon class="home-exit-button e-icon" size="26" type="cancel" @click="handleExit" color="#fff"></icon>
-		</div>
-		<div class="home-form">
+		<view class="home-exit" @click="handleExit">
+			退出
+		</view>
+		<view class="home-form">
 			
 			<view class="u-input home-form-item">
 				<picker class="picker"  @change="cardSlotChange" :value="cardSlot" :range="cardSlotOptions">
@@ -17,10 +17,10 @@
 			</view>
 			<input class="u-input home-form-item" v-model="phone" type="text" placeholder="来电转移电话">
 			
-		</div>
-		<div class="home-console">
+		</view>
+		<view class="home-console">
 			<button class="home-console-button s-button" @click="handleSetup">设置</button>
-		</div>
+		</view>
 	</view>
 </template>
 <script>
@@ -134,14 +134,19 @@
 			}
 		}
 		&-exit{
-			width: auto;
+			width: 80rpx;
+			height: 80rpx;
 			position: absolute;
-			top: 10rpx;
+			top: 5%;
 			right: 10rpx;
-			&-button{
-				width: 70rpx;
-				height: 70rpx;
-			}
+			border-radius: 100%;
+			font-size: 0.8em;
+			font-style: italic;
+			line-height: 80rpx;
+			font-weight: bold;
+			background:linear-gradient(to right,#063DF5,#653DF2);
+			color:#fff;
+			text-align: center;
 		}
 	}
 </style>

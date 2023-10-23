@@ -7,5 +7,5 @@
 -ignorewarnings
 # End of content from <unknown>
 # The proguard configuration file for the following section is <unknown>
--applymapping "D:\WorkSpace\Android\plug_in_unit\AnYu-UniPlugin\app\build\outputs\mapping\debug\mapping.txt"
+-applymapping "E:\CallTransfer\AnYu-UniPlugin\app\build\outputs\mapping\debug\mapping.txt"
 # End of content from <unknown>

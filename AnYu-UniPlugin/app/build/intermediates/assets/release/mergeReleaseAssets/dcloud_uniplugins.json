@@ -1,12 +1,12 @@
 {
   "nativePlugins": [
     {
-      "hooksClass": "com.anyu.callforwarding.CallForwardingHandler",
+      "hooksClass": "com.anyu.callforwarding.CallTransferModule",
       "plugins": [
         {
           "type": "module",
           "name": "callforwarding",
-          "class": "com.anyu.callforwarding.CallTransferHandler"
+          "class": "com.anyu.callforwarding.CallTransferModule"
         }
       ]
     }

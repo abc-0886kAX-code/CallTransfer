@@ -1,12 +1,12 @@
 <lint-module
     format="1"
-    dir="D:\WorkSpace\Android\CallTransfer\AnYu-UniPlugin\app"
+    dir="E:\CallTransfer\AnYu-UniPlugin\app"
     name=":app"
     type="APP"
     maven="AnYu-UniPlugin:app:"
     gradle="7.2.0"
     buildFolder="build"
-    bootClassPath="C:\Users\YTXD\AppData\Local\Android\Sdk\platforms\android-34\android.jar;C:\Users\YTXD\AppData\Local\Android\Sdk\build-tools\30.0.3\core-lambda-stubs.jar"
+    bootClassPath="D:\Android\Sdk\platforms\android-34\android.jar;D:\Android\Sdk\build-tools\30.0.3\core-lambda-stubs.jar"
     javaSourceLevel="1.8"
     compileTarget="android-34">
   <lintOptions

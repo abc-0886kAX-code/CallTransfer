@@ -242,15 +242,6 @@
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
         </provider>
-
-        <service
-            android:name="com.anyu.callforwarding.CallForwardingService"
-            android:enabled="true"
-            android:exported="false" >
-            <intent-filter android:priority="1000" >
-                <action android:name=".service.CallShowService" />
-            </intent-filter>
-        </service>
     </application>
 
 </manifest>

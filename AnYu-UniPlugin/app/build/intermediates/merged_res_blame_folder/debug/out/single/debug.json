@@ -1,11 +1,15 @@
 [
     {
-        "merged": "com.android.CallTransfer.app-merged_res-30:/drawable-xxhdpi_splash.png.flat",
-        "source": "com.android.CallTransfer.app-main-32:/drawable-xxhdpi/splash.png"
+        "merged": "D:\\.gradle\\daemon\\7.5\\com.android.CallTransfer.app-merged_res-30:\\drawable-xxhdpi_splash.png.flat",
+        "source": "D:\\.gradle\\daemon\\7.5\\com.android.CallTransfer.app-main-32:\\drawable-xxhdpi\\splash.png"
     },
     {
-        "merged": "com.android.CallTransfer.app-merged_res-30:/drawable-xxhdpi_push.png.flat",
-        "source": "com.android.CallTransfer.app-main-32:/drawable-xxhdpi/push.png"
+        "merged": "D:\\.gradle\\daemon\\7.5\\com.android.CallTransfer.app-merged_res-30:\\drawable-xxhdpi_icon.png.flat",
+        "source": "D:\\.gradle\\daemon\\7.5\\com.android.CallTransfer.app-main-32:\\drawable-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "D:\\.gradle\\daemon\\7.5\\com.android.CallTransfer.app-merged_res-30:\\drawable-xxhdpi_push.png.flat",
+        "source": "D:\\.gradle\\daemon\\7.5\\com.android.CallTransfer.app-main-32:\\drawable-xxhdpi\\push.png"
     },
     {
         "merged": "com.android.CallTransfer.app-merged_res-30:/drawable-xxhdpi_icon.png.flat",

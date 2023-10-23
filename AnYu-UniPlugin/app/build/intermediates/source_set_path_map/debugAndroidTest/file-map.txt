@@ -1,7 +1,7 @@
-com.android.CallTransfer.test.app-androidTest-0 D:\WorkSpace\Android\plug_in_unit\AnYu-UniPlugin\app\build\generated\res\resValues\androidTest\debug
-com.android.CallTransfer.test.app-androidTest-1 D:\WorkSpace\Android\plug_in_unit\AnYu-UniPlugin\app\build\generated\res\rs\androidTest\debug
-com.android.CallTransfer.test.app-mergeDebugAndroidTestResources-2 D:\WorkSpace\Android\plug_in_unit\AnYu-UniPlugin\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.android.CallTransfer.test.app-mergeDebugAndroidTestResources-3 D:\WorkSpace\Android\plug_in_unit\AnYu-UniPlugin\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.android.CallTransfer.test.app-merged_res-4 D:\WorkSpace\Android\plug_in_unit\AnYu-UniPlugin\app\build\intermediates\merged_res\debugAndroidTest
-com.android.CallTransfer.test.app-androidTest-5 D:\WorkSpace\Android\plug_in_unit\AnYu-UniPlugin\app\src\androidTest\res
-com.android.CallTransfer.test.app-androidTestDebug-6 D:\WorkSpace\Android\plug_in_unit\AnYu-UniPlugin\app\src\androidTestDebug\res
+com.android.CallTransfer.test.app-androidTest-0 E:\CallTransfer\AnYu-UniPlugin\app\build\generated\res\resValues\androidTest\debug
+com.android.CallTransfer.test.app-androidTest-1 E:\CallTransfer\AnYu-UniPlugin\app\build\generated\res\rs\androidTest\debug
+com.android.CallTransfer.test.app-mergeDebugAndroidTestResources-2 E:\CallTransfer\AnYu-UniPlugin\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.android.CallTransfer.test.app-mergeDebugAndroidTestResources-3 E:\CallTransfer\AnYu-UniPlugin\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.android.CallTransfer.test.app-merged_res-4 E:\CallTransfer\AnYu-UniPlugin\app\build\intermediates\merged_res\debugAndroidTest
+com.android.CallTransfer.test.app-androidTest-5 E:\CallTransfer\AnYu-UniPlugin\app\src\androidTest\res
+com.android.CallTransfer.test.app-androidTestDebug-6 E:\CallTransfer\AnYu-UniPlugin\app\src\androidTestDebug\res
